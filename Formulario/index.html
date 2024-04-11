@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <h2>Dados de acesso</h2>
+    <form action="https://www.w3schools.com/action_page.php">
+        <label for="n">Digite a data: </label>
+        <input type="date" name="date"><br><br>
+        <label for="n">Digite o usuário: </label>
+        <input type="text" name = "usuario" placeholder="Usuário"><br><br>
+        <label for="n">Digite a senha: </label>
+        <input type="password" name = password placeholder="Senha"><br><br>
+        <h2>Dados pessoais</h2>
+        <label for="n">Digite o nome: </label>
+        <input type="text" name = "Nome" placeholder="Nome"><br><br>
+        <label for="n">Digite o endereço: </label>
+        <input type="text" name = "endereço" placeholder="Endereço"><br><br>
+        <label for="n">Digite o número: </label>
+        <input type="number" name="number" placeholder="Número"><br><br>
+        <label for="n">Digite o complemento: </label>
+        <input type="text" name = "complemento" placeholder="Complemento"><br><br>
+        <form action="/action_page.php">
+        <label for="n">Informe a cidade: </label>
+        <input list="cidade" name="cidade" placeholder="Cidade">
+        <datalist id="cidade">
+        <option value="São Paulo">
+        <option value="Sorocaba">
+        <option value="São Roque">
+        <option value="Itapetinga">
+        <option value="Mairinque">
+        </datalist>
+        <br><br>
+        <label for="estado">Informe o estado:</label>
+        <select id="estado" name="estado">
+        <option value="São Paulo" selected>São Paulo</option>
+        <option value="Rio Grande do Sul" >Rio Grande do Sul</option>
+        <option value="Minas Gerais">Minas Gerais</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+        </select>
+        <br><br>
+        <label for="CEP">Informe o CEP:</label>
+        <input type="text" name="cep" maxlength="8" placeholder="CEP"><br><br>
+        
+    
+        <label for="gênero">Infomr o gênero:</label> <br><br>
+         <input type="radio" id="masculino" name="genero" value= "masculino"  checked>
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label><br>
+        <input type="radio" id="prefiro não informar" name="genero" value="prefiro não informar">
+        <label for="prefiro não informar">Prefiro não informar</label>
+
+        <br><br>
+        <label for="curso">Informe o Curso: </label> <br><br>
+        <input type="checkbox" id="curso1" name="curso1" value="ads">
+        <label for="curso1"> ADS</label><br>
+        <input type="checkbox" id="curso2" name="curso2" value="jogos">
+        <label for="curso2"> Desenvolvimento de jogos</label><br>
+        <input type="checkbox" id="curso3" name="curso3" value="gestãodeTI">
+        <label for="curso3"> Gestão de TI</label><br>
+        <input type="checkbox" id="curso4" name="curso4" value="bancodeDados">
+        <label for="curso4"> Banco de Dados</label><br><br>
+
+        <label for="Modelo">Infome o modelo:</label> <br><br>
+         <input type="radio" id="presencial" name="modelo" value= "presencial"  checked>
+        <label for="presencial">Presencial</label><br>
+        <input type="radio" id="ead" name="modelo" value="ead">
+        <label for="ead">EAD</label><br>
+        <input type="radio" id="semi presencial" name="modelo" value="semi presencial">
+        <label for="semi Presencial">Semi Presencial</label><br><br>
+
+        <input type="submit" value = "Enviar">
+    </form>
+</body>
+</html>
