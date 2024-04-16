@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main {
+    background-color: aquamarine;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 76%;
+    height: 98%;
+
+    
+}
+
+header {
+    background-color: rgb(43, 41, 41);
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 97%;
+    height: 130px;
+    display: flex;
+    
+    flex-direction: row;
+    gap: 30px
+}
+
+.div1 {
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.img1 {
+    margin: 10px;
+    height: 110px;
+    width: 230px;
+   
+}
+
+nav {
+    display: flex;
+    background-color: yellowgreen;
+    width: 97%;
+    margin-left: 15px;
+    
+}
+
+.div2 {
+    display: flex;
+    
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+.section1 {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: white;
+    width: 97%;
+    height: 300px;
+    gap: 30px;
+}
+
+.img2 {
+    margin: 10px;
+    height: 280px;
+    width: 30%;
+   
+}
+
+.div3 {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.img3 {
+    margin: 10px;
+    height: 280px;
+    width: 300px;
+    width: 30%;
+   
+}
+
+.section2 {
+    display: flex;
+    margin: 15px;
+    background-color: lightgrey;
+    width: 97%;
+    height: 300px;
+    gap: 30px;
+    
+    flex-direction: row;
+    
+}
+
+.div4 {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.section3 {
+    display: flex;
+    margin: 15px;
+    background-color: gray;
+    width: 97%;
+    height: 300px;
+    
+    
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div5 {
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    
+}
+
+footer {
+    display: flex;
+    background-color: yellow;
+    margin: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center ;
+    height: 100px;
+}
+
+.div6 {
+    font-size: 25px;
+}
